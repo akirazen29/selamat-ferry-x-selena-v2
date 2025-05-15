@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Selamat Ulang Tahun Ferry x Selena</title>
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #00bfff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #00bfff;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 16px;
+      background-color: #00bfff;
+      color: #000;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    #hadiah {
+      margin-top: 30px;
+      display: none;
+    }
+
+    #hadiah img {
+      width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00bfff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎉 Selamat Ulang Tahun Ferry x Selena 🎉</h1>
+  <p>Semoga bahagia dan sukses selalu! Klik tombol di bawah untuk membuka hadiahnya 🎁</p>
+  
+  <button onclick="tampilkanHadiah()">Buka Hadiah</button>
+
+  <div id="hadiah">
+    <h2>🎁 Ini Hadiah Spesial untuk Kalian 🎁</h2>
+    <img src="IMG-20250515-WA0022.jpg" alt="Hadiah Ulang Tahun">
+  </div>
+
+  <script>
+    function tampilkanHadiah() {
+      document.getElementById("hadiah").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
